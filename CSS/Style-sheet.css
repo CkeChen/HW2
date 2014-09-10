@@ -1,0 +1,120 @@
+body { 	color: black; 
+3 		font-family: Gill Sans, Verdana, Helvetica, sans-serif; 
+4 		font-size: 10pt; 
+5 		margin: 0 auto;  
+6 	} 
+7 h1.title { 
+8 			font-size: 36pt; 
+9 			font-variant: small-caps; 
+10 			font-weight: bold; 
+11 			text-align:center; 
+12 			margin-top: 15px; 
+13 			margin-bottom: 0px;  
+14 		} 
+15 
+ 
+16 h2.titletop { 
+17 			font-size: 14pt; 
+18 			font-weight: normal; 
+19 			text-decoration: underline; 
+20 			font-variant: small-caps; 
+21 			padding-bottom: 0px; 
+22 			margin-bottom: 25px; 
+23 			} 
+24 
+ 
+25 h2.title { 
+26 			font-size: 14pt; 
+27 			font-weight: normal; 
+28 			text-decoration: underline; 
+29 			font-variant: small-caps; 
+30 			padding-bottom: 0px; 
+31 			margin-top: 30px; 
+32 			margin-bottom: 25px; 
+33 		}	 
+34 ul { margin:0px; padding:0; list-style:none; } 
+35 li { margin-left:20px; margin-bottom:20px; padding:0;  } 
+36 
+ 
+37 a { text-decoration:none; font-weight: bold; } 
+38 a:link, a:visited { color: #fff; }	 
+39 	 
+40 #wrap {width:1240px; margin:0 auto; background:#c9c; border-left: solid 2px black; border-right: solid 2px black;  } 
+41 
+ 
+42 #header { background:#ddd; padding:5px 10px;  } 
+43 
+ 
+44 #nav { background:#c99; padding:5px 10px; text-align:center; } 
+45 #nav li  { display: inline; list-style-type: none; padding-right: 20px; font-size: 14pt; font-weight:normal; font-variant:small-caps;} 
+46 
+ 
+47 #main {background:#9c9; float:left; width:580px; padding-top:0px; padding-left:10px; padding-right:10px; padding-bottom:10px; margin-bottom:0; height:3050px; } 
+48 
+ 
+49 #left_sidebar { background:#c9c; float:left; width:300px; padding:10px; } 
+50 
+ 
+51 #right_sidebar { background:#c9c; float:left; width:300px; padding:10px; } 
+52 
+ 
+53 #footer { background:#cc9; clear:both; padding:5px 10px; } 
+54 #footer p { margin:0; font-style:italic; text-align:center; font-size:small; } 
+55 
+ 
+56 /* Star hack for IE 6 bug */ 
+57 * html #footer { height:1px; } 
+58 
+ 
+59 /* Resume formatting */ 
+60 
+ 
+61 #resume {background:#9c9; width:900px; margin:auto; padding:20px; text-align:left; } 
+62 
+ 
+63 table { border-collapse:collapse; width:80%; margin-left:75px; } 
+64 table,th, td { border: 1px solid green; } 
+65 th { height:30px; background-color:green; color:white; text-align:center; vertical-align:middle; padding:15px;}  
+66 th.coursename { text-align:left;} 
+67 td { text-align:center; height:30px; vertical-align:middle; padding:5px;} 
+68 td.coursename { text-align:left;} 
+69 caption { text-align:left;} 
+70 
+ 
+71 a:link.resume , a:visited.resume  { color:black; text-decoration:underline; }	 
+72 a:hover, a:hover.resume { color: #fff; background-color: #036; text-decoration: underline; }	 
+73 
+ 
+74 .printonly { display:none; } 
+75 .pagebreak { display:none; } 
+76 #printheader { display:none; } 
+77 
+ 
+78 .title2 { 
+79 			font-size: 14pt; 
+80 			font-weight: normal; 
+81 			text-decoration: none; 
+82 			font-variant: small-caps; 
+83 			padding-bottom: 0px; 
+84 			margin-top: 30px; 
+85 			margin-bottom: 25px; 
+86 		} 
+87 
+ 
+88 
+ 
+89 		 
+90 /* Photo formatting */ 
+91 
+ 
+92 .polaroid { 
+93 			border: solid 1px black;  
+94 			background: #fff; 
+95 			width: 250px; 
+96 			padding: 20px; 
+97 			margin-right: auto; 
+98 			margin-left: auto; 
+99 			margin-top: 10px; 
+100 			margin-bottom: 20px; 
+101 			text-align: center; 
+102 		} 
