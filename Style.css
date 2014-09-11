@@ -1,12 +1,17 @@
-<<<<<<< HEAD
+	
+	.photo{
+			float:middle;
+			border:2px solid yellow;
+			padding-top:20px;
+			padding-left:5px;
+			padding-right:5px;
+			padding-bottom:40px;
+			margin-right:10px;
+			margin-bottom:10px;
+			background-color:grey;
+		}		
+		
+ 		
 
-body { background: pink; font-family: "Comic Sans MS"; }
-<a href=”http://www.google.com”> Google </a>
-h1 { text-align:center; font-weight:bold; font-style:italic; }
-<h1> Home page</h1>
-=======
-body { background: pink; font-family: "Comic Sans MS"; }
-<a href=”http://www.google.com”> Google </a>
-h1 { text-align:center; font-weight:bold; font-style:italic; }
-<h1> Home Page </h1>
->>>>>>> Style-sheet
+ body {background-color:orange;}	
+	
